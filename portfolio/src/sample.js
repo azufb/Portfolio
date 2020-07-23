@@ -1,7 +1,7 @@
 import React from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import './certificate';
+import Profile from './profile';
 import Certificate from './certificate';
 
 export const Sample = () => {
@@ -34,26 +34,11 @@ export const Sample = () => {
                 </TabList>
 
                 <TabPanel>
-                    <h2>経歴</h2>
-                    <span>名前：
-                    <ruby>
-                        <rb>岡本 梓沙</rb>
-                        <rp>(</rp>
-                        <rt>おかもと あずさ</rt>
-                        <rp>)</rp>
-                    </ruby>
-                    </span><br></br>
-                    <span>生年月日：
-                    1998年2月10日
-                    </span><br></br>
-                    <p>
-                        
-                    </p>
+                    <Profile />
                 </TabPanel>
 
                 <TabPanel>
-                    <h2>保有資格</h2>
-                        <Certificate />
+                    <Certificate />
                 </TabPanel>
             </Tabs>
         </TabPanel>
