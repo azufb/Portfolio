@@ -3,6 +3,7 @@ import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Profile from './profile';
 import Certificate from './certificate';
+import Skills from './skills';
 
 export const Sample = () => {
     return (
@@ -28,7 +29,7 @@ export const Sample = () => {
         <TabPanel>
             <Tabs>
                 <TabList>
-                    <Tab>経歴</Tab>
+                    <Tab>自己紹介</Tab>
                     <Tab>資格・スキル</Tab>
                     <Tab>きっかけ</Tab>
                 </TabList>
@@ -39,6 +40,7 @@ export const Sample = () => {
 
                 <TabPanel>
                     <Certificate />
+                    <Skills />
                 </TabPanel>
             </Tabs>
         </TabPanel>
