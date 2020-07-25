@@ -6,6 +6,9 @@ import Profile from './components/profile';
 import Certificate from './components/certificate';
 import Skills from './components/skills';
 import Works from './components/works';
+import ReactToDoListApp from './components/details/react_todoapp';
+import Homerun from './components/details/homerun';
+import VueToDoListApp from './components/details/vue_todoapp';
 
 class Sample extends Component {
     render() {
@@ -62,7 +65,15 @@ class Sample extends Component {
                                 </TabList>
 
                                 <TabPanel>
-                                    
+                                    <ReactToDoListApp />
+                                </TabPanel>
+
+                                <TabPanel>
+                                    <Homerun />
+                                </TabPanel>
+
+                                <TabPanel>
+                                    <VueToDoListApp />
                                 </TabPanel>
                             </Tabs>
                         </TabPanel>

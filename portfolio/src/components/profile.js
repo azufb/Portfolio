@@ -16,7 +16,9 @@ class Profile extends Component {
             <span>生年月日：
                 1998年2月10日
             </span><br></br>
-
+            <span>SNS：
+                <a href="https://twitter.com/azu_proglove">Twitter</a>
+            </span>
             
         </div>
         )
