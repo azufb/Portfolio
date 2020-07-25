@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import Aisatsu from './aisatsu';
-import Profile from './profile';
-import Certificate from './certificate';
-import Skills from './skills';
-import Works from './works';
+import Aisatsu from './components/aisatsu';
+import Profile from './components/profile';
+import Certificate from './components/certificate';
+import Skills from './components/skills';
+import Works from './components/works';
 
 class Sample extends Component {
     render() {
@@ -60,6 +60,10 @@ class Sample extends Component {
                                     <Tab>ほめるん</Tab>
                                     <Tab>ToDo管理アプリ</Tab>
                                 </TabList>
+
+                                <TabPanel>
+                                    
+                                </TabPanel>
                             </Tabs>
                         </TabPanel>
                     </Tabs>
