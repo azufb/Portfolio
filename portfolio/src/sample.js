@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import Aisatsu from './aisatsu';
@@ -6,6 +6,7 @@ import Profile from './profile';
 import Certificate from './certificate';
 import Skills from './skills';
 import Works from './works';
+import Detail from './workdetail';
 
 export const Sample = () => {
     return (
@@ -52,7 +53,7 @@ export const Sample = () => {
                 </TabPanel>
 
                 <TabPanel>
-                    
+                    <Detail />
                 </TabPanel>
             </Tabs>
         </TabPanel>
