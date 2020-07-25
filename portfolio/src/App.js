@@ -6,10 +6,8 @@ import Sample from './sample';
 function App() {
   return (
     <div>
-      <body>
         <h1>portfolio</h1>
         <Sample />
-      </body>
     </div>
   );
 }

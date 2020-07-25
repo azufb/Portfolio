@@ -5,6 +5,7 @@ import Aisatsu from './aisatsu';
 import Profile from './profile';
 import Certificate from './certificate';
 import Skills from './skills';
+import Works from './works';
 
 export const Sample = () => {
     return (
@@ -35,6 +36,23 @@ export const Sample = () => {
                 <TabPanel>
                     <Certificate />
                     <Skills />
+                </TabPanel>
+            </Tabs>
+        </TabPanel>
+
+        <TabPanel>
+            <Tabs>
+                <TabList>
+                    <Tab>一覧</Tab>
+                    <Tab>詳細</Tab>
+                </TabList>
+
+                <TabPanel>
+                    <Works />
+                </TabPanel>
+
+                <TabPanel>
+                    
                 </TabPanel>
             </Tabs>
         </TabPanel>
