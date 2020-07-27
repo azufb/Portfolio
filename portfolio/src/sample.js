@@ -19,13 +19,14 @@ class Sample extends Component {
                     <Tab>Home</Tab>
                     <Tab>Profile</Tab>
                     <Tab>My Works</Tab>
-                    <Tab>お問い合わせ</Tab>
                 </TabList>
-            
+
+                {/* Topページの挨拶文のタブ */}
                 <TabPanel>
                     <Aisatsu />
                 </TabPanel>
 
+                {/* Profileページのタブ */}
                 <TabPanel>
                     <Tabs>
                         <TabList>
@@ -49,6 +50,7 @@ class Sample extends Component {
                     </Tabs>
                 </TabPanel>
 
+                {/* 成果物のMy Worksページのタブ */}
                 <TabPanel>
                     <Tabs>
                         <TabList>
