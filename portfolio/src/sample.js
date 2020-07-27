@@ -5,6 +5,7 @@ import Aisatsu from './components/aisatsu';
 import Profile from './components/profile';
 import Certificate from './components/certificate';
 import Skills from './components/skills';
+import Trigger from './components/trigger';
 import Works from './components/works';
 import ReactToDoListApp from './components/details/react_todoapp';
 import Homerun from './components/details/homerun';
@@ -40,6 +41,10 @@ class Sample extends Component {
                         <TabPanel>
                             <Certificate />
                             <Skills />
+                        </TabPanel>
+
+                        <TabPanel>
+                            <Trigger />
                         </TabPanel>
                     </Tabs>
                 </TabPanel>
