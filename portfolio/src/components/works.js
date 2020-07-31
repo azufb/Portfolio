@@ -13,6 +13,12 @@ class Works extends Component {
                     </tr>
 
                     <tr>
+                        <td>タスク管理</td>
+                        <td>JavaScript・React.js</td>
+                        <td>2020年7月30日</td>
+                    </tr>
+
+                    <tr>
                         <td>My Task List</td>
                         <td>JavaScript・React.js</td>
                         <td>2020年7月24日</td>

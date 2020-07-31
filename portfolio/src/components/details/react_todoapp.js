@@ -12,7 +12,9 @@ class ReactToDoListApp extends Component {
 
                 <button>
                     <a href="https://pacific-crag-00342.herokuapp.com/"
-                        target="_blank" rel="noopener noreferrer">go</a>
+                        target="_blank" rel="noopener noreferrer">
+                        Go to App▶️
+                    </a>
                 </button>
             </div>
         )

@@ -20,7 +20,9 @@ class Homerun extends Component {
                 
                 <button>
                     <a href="https://boiling-garden-35201.herokuapp.com/"
-                        target="_blank" rel="noopener noreferrer">go</a>
+                        target="_blank" rel="noopener noreferrer">
+                        Go to App▶️
+                    </a>
                 </button>
             </div>
         )
