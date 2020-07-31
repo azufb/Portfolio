@@ -11,7 +11,9 @@ class VueToDoListApp extends Component {
 
                 <button>
                     <a href="https://todolistwithvue.herokuapp.com/"
-                        target="_blank" rel="noopener noreferrer">go</a>
+                        target="_blank" rel="noopener noreferrer">
+                        Go to App▶️
+                    </a>
                 </button>
             </div>
         )

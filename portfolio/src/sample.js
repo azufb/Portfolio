@@ -7,6 +7,7 @@ import Certificate from './components/certificate';
 import Skills from './components/skills';
 import Trigger from './components/trigger';
 import Works from './components/works';
+import TaskKanri from './components/details/taskkanri';
 import ReactToDoListApp from './components/details/react_todoapp';
 import Homerun from './components/details/homerun';
 import VueToDoListApp from './components/details/vue_todoapp';
@@ -58,18 +59,25 @@ class Sample extends Component {
                             <Tab>詳細</Tab>
                         </TabList>
 
+                        {/* 成果物一覧ページのタブ */}
                         <TabPanel>
                             <Works />
                         </TabPanel>
 
+                        {/* 成果物詳細ページのタブ */}
                         <TabPanel>
                             <h2>成果物詳細</h2>
                             <Tabs>
                                 <TabList>
+                                    <Tab>タスク管理</Tab>
                                     <Tab>My Task List</Tab>
                                     <Tab>ほめるん</Tab>
                                     <Tab>ToDo管理アプリ</Tab>
                                 </TabList>
+
+                                <TabPanel>
+                                    <TaskKanri />
+                                </TabPanel>
 
                                 <TabPanel>
                                     <ReactToDoListApp />
