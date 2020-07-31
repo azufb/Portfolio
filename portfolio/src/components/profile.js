@@ -16,6 +16,11 @@ class Profile extends Component {
             <span>生年月日：
                 1998年2月10日
             </span><br></br>
+            <span>SNS等：<br></br>
+                <a href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer">Twitter</a><br></br>
+                <a href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer">Facebook</a><br></br>
+                <a href="https://github.com/azufb" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </span>
             <h3>経歴</h3>
             <p>
                 2020年3月、関西学院大学商学部を卒業。大学時代は、金融を専攻。<br></br>
