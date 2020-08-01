@@ -24,14 +24,14 @@ class Sample extends Component {
         return (
             <div>
                 <Tabs>
-                <div className="mainTitle">
-                <h1>Azusa's Portfolio</h1>
-                    <TabList className="mainTab">
-                        <Tab style={this.mainTabStyle}>Home</Tab>
-                        <Tab style={this.mainTabStyle}>Profile</Tab>
-                        <Tab style={this.mainTabStyle}>My Works</Tab>
-                    </TabList>
-                </div>
+                    <div className="mainTitle">
+                        <h1>Azusa's Portfolio</h1>
+                        <TabList className="mainTab">
+                            <Tab style={this.mainTabStyle}>Home</Tab>
+                            <Tab style={this.mainTabStyle}>Profile</Tab>
+                            <Tab style={this.mainTabStyle}>My Works</Tab>
+                        </TabList>
+                    </div>
                     {/* Topページの挨拶文のタブ */}
                     <TabPanel className="aisatu">
                         <Aisatsu />
