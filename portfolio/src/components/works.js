@@ -33,7 +33,7 @@ class Works extends Component {
                     <tr>
                         <td>ToDo管理アプリ</td>
                         <td>JavaScript・Vue.js</td>
-                        <td>2020年7月5日</td>
+                        <td>2020年7月05日</td>
                     </tr>
                 </table>
             </div>
