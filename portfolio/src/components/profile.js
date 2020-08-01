@@ -23,9 +23,9 @@ class Profile extends Component {
                 1998年02月10日
             </span><br></br>
             <span>SNS等：<br></br>
-                <a href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square fa-3x" style={this.snsLinkStyle}></i></a>
-                <a href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
+                <a href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-3x" style={this.snsLinkStyle}></i></a>
+                <a href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
                 
             </span>
             <h3>経歴</h3>
