@@ -14,13 +14,18 @@ import Homerun from './components/details/homerun';
 import VueToDoListApp from './components/details/vue_todoapp';
 
 class Sample extends Component {
+    mainTabStyle = {
+        backgroundColor: "cadetblue",
+        border: "none"
+    };
+
     render() {
         return (
             <Tabs>
                 <TabList className="mainTab">
-                    <Tab>Home</Tab>
-                    <Tab>Profile</Tab>
-                    <Tab>My Works</Tab>
+                    <Tab style={this.mainTabStyle}>Home</Tab>
+                    <Tab style={this.mainTabStyle}>Profile</Tab>
+                    <Tab style={this.mainTabStyle}>My Works</Tab>
                 </TabList>
 
                 {/* Topページの挨拶文のタブ */}
