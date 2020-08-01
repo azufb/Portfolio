@@ -14,7 +14,7 @@ class Profile extends Component {
                 </ruby>
             </span><br></br>
             <span>生年月日：
-                1998年2月10日
+                1998年02月10日
             </span><br></br>
             <span>SNS等：<br></br>
                 <a href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer">Twitter</a><br></br>
