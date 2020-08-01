@@ -16,6 +16,7 @@ h1 {
     text-align: center;
 }
 
+/* 資格ページと成果物一覧ページの表のレイアウト */
 table {
     border-collapse: collapse;
 }
