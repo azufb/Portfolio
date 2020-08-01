@@ -1,6 +1,19 @@
-.mainTab {
+.mainTitle {
+    display: flex;
+}
+
+h1 {
+    margin-top: 7px;
+    padding-left: 35px;
     text-align: center;
-    background-color: cadetblue;
+    font-size: 50px;
+}
+
+.mainTab {
+    margin-top: 30px;
+    padding-left: 50px;
+    height: 30px;
+    text-align: center;
 }
 
 table {
@@ -9,4 +22,22 @@ table {
 
 th, td {
     border: 1px solid black;
+}
+
+/* Homeページのレイアウト */
+.aisatu {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* Profileページのレイアウト */
+.profile {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* My Worksページのレイアウト */
+.myWorks {
+    padding-left: 35px;
+    padding-right: 35px;
 }

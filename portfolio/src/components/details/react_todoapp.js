@@ -13,7 +13,7 @@ class ReactToDoListApp extends Component {
                 <button>
                     <a href="https://pacific-crag-00342.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
-                        Go to App▶️
+                        Go to App<span role="img" aria-label="goToPage">▶️</span>
                     </a>
                 </button>
             </div>
