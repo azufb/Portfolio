@@ -17,7 +17,7 @@ class Sample extends Component {
     render() {
         return (
             <Tabs>
-                <TabList>
+                <TabList className="mainTab">
                     <Tab>Home</Tab>
                     <Tab>Profile</Tab>
                     <Tab>My Works</Tab>
