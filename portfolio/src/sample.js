@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {Tab, Tabs, TabList, TabPanel} from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import './style.css';
 import Aisatsu from './components/aisatsu';
 import Profile from './components/profile';
 import Certificate from './components/certificate';

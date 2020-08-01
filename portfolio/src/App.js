@@ -6,7 +6,7 @@ import Sample from './sample';
 function App() {
   return (
     <div>
-        <h1>portfolio</h1>
+        <h1>Azusa's Portfolio</h1>
         <Sample />
     </div>
   );
