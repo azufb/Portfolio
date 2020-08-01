@@ -9,7 +9,7 @@ class VueToDoListApp extends Component {
                 <h4>使用言語・技術等</h4>
                 <p>JavaScript・Vue.js・Heroku</p>
 
-                <button>
+                <button className="btn">
                     <a href="https://todolistwithvue.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
                         Go to App<span role="img" aria-label="goToPage">▶️</span>

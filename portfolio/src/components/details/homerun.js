@@ -18,7 +18,7 @@ class Homerun extends Component {
                 <h4>使用言語・技術等</h4>
                 <p>JavaScript・React.js・React Simple Chatbot・Heroku</p>
                 
-                <button>
+                <button className="btn">
                     <a href="https://boiling-garden-35201.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
                         Go to App<span role="img" aria-label="goToPage">▶️</span>
