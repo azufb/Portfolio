@@ -11,7 +11,7 @@ class ReactToDoListApp extends Component {
                 <p>JavaScript・React.js・React Hooks・Heroku</p>
 
                 <button className="btn">
-                    <a href="https://pacific-crag-00342.herokuapp.com/"
+                    <a className="goToApp" href="https://pacific-crag-00342.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
                         Go to App <i className="fas fa-caret-square-right"></i>
                     </a>

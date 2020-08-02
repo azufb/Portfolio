@@ -19,7 +19,7 @@ class Homerun extends Component {
                 <p>JavaScript・React.js・React Simple Chatbot・Heroku</p>
                 
                 <button className="btn">
-                    <a href="https://boiling-garden-35201.herokuapp.com/"
+                    <a className="goToApp" href="https://boiling-garden-35201.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
                         Go to App <i className="fas fa-caret-square-right"></i>
                     </a>

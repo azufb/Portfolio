@@ -14,7 +14,7 @@ class TaskKanri extends Component {
                 <p>JavaScript・React.js・Heroku</p>
 
                 <button className="btn">
-                    <a href="https://reacttodoappagain.herokuapp.com/"
+                    <a className="goToApp" href="https://reacttodoappagain.herokuapp.com/"
                         target="_blank" rel="noopener noreferrer">
                         Go to App <i className="fas fa-caret-square-right"></i>
                     </a>
