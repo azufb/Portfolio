@@ -1,5 +1,6 @@
 .mainTitle {
     display: flex;
+    cursor: pointer;
 }
 
 h1 {
@@ -7,6 +8,7 @@ h1 {
     padding-left: 35px;
     text-align: center;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .mainTab {
@@ -35,7 +37,25 @@ th, td {
 .profile {
     padding-left: 35px;
     padding-right: 35px;
+    cursor: pointer;
 }
+
+/* snsアイコンの設定 */
+.twitterIcon:link, .twitterIcon:visited,
+.twitterIcon:hover, .twitterIcon:active {
+    color: #1DA1F2;
+}
+
+.facebookIcon:link, .facebookIcon:visited,
+.facebookIcon:hover, .facebookIcon:active {
+    color: #3b5998;
+}
+
+.githubIcon:link, .githubIcon:visited,
+.githubIcon:hover, .githubIcon:active {
+    color: #333;
+}
+
 
 /* My Worksページのレイアウト */
 .myWorks {
