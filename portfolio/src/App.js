@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import './sample';
-import Sample from './sample';
+import Main from './main';
 
 function App() {
   return (
     <div>
-        <Sample />
+        <Main />
     </div>
   );
 }
