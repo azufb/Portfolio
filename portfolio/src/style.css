@@ -65,10 +65,11 @@ th, td {
 
 .btn {
     font-size: 20px;
+    background-color: black;
 }
 
 .goToApp:link, .goToApp:visited,
 .goToApp:hover, .goToApp:active {
-    color: black;
+    color: white;
     text-decoration: none;
 }
