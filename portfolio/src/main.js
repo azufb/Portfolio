@@ -17,12 +17,17 @@ class Main extends Component {
     mainTabStyle = {
         border: "none",
         paddingLeft: "30px",
-        backgroundColor: "whitesmoke"
+        backgroundColor: "#e6e6e6"
     };
 
     tabStyle = {
         height: "24px",
-        backgroundColor: "whitesmoke"
+        border: "0px",
+        backgroundColor: "#d3d3d3"
+    };
+
+    tabStyle2 = {
+        backgroundColor: "#d3d3d3"
     }
 
     render() {
@@ -82,11 +87,12 @@ class Main extends Component {
                             {/* 成果物詳細ページのタブ */}
                             <TabPanel>
                                 <h2>成果物詳細</h2>
+                                <p>制作した成果物の中からいくつかピックアップしてご紹介します！</p>
                                 <Tabs>
                                     <TabList>
-                                        <Tab style={ this.tabStyle }>タスク管理</Tab>
-                                        <Tab style={ this.tabStyle }>ほめるん</Tab>
-                                        <Tab style={ this.tabStyle }>ToDo管理アプリ</Tab>
+                                        <Tab style={ this.tabStyle2 }>タスク管理</Tab>
+                                        <Tab style={ this.tabStyle2 }>ほめるん</Tab>
+                                        <Tab style={ this.tabStyle2 }>ToDo管理アプリ</Tab>
                                     </TabList>
 
                                     <TabPanel>
