@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: whitesmoke;
 }
 
 code {
@@ -18,4 +19,8 @@ code {
 footer {
   margin-top: auto;
   cursor: pointer;
+}
+
+.copyright {
+  margin-bottom: 0px;
 }
