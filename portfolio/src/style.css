@@ -47,12 +47,21 @@ th, td {
     cursor: pointer;
 }
 
+.profileDetail {
+    display: flex;
+    align-items: baseline;
+}
+
 .myName {
     font-weight: bold;
 }
 
 .myBirthday {
     font-weight: bold;
+}
+
+.keireki {
+    margin-left: 80px;
 }
 
 /* snsアイコンの設定 */
