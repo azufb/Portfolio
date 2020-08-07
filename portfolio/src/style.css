@@ -78,7 +78,14 @@ th, td {
     padding-right: 35px;
 }
 
+.detail {
+    display: flex;
+    align-items: center;
+}
+
 .btn {
+    height: 30px;
+    margin-left: 20px;
     font-size: 20px;
     background-color: black;
 }
