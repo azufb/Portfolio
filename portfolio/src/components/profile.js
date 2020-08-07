@@ -30,9 +30,8 @@ class Profile extends Component {
                         <a className="githubIcon" href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
                         <p>
                             お問い合わせは、<br></br>
-                            上記Twitterまたは<br></br>
-                            Facebookでお受け<br></br>
-                            致します。
+                            TwitterまたはFacebook<br></br>
+                            でお受け致します。
                         </p>
                     </span>
                 </div>
