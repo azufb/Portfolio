@@ -17,17 +17,22 @@ class Main extends Component {
     mainTabStyle = {
         border: "none",
         paddingLeft: "30px",
-        backgroundColor: "#e6e6e6"
+        backgroundColor: "#e6e6e6",
+        fontFamily: "'Oswald', sans-serif"
     };
 
     tabStyle = {
         height: "24px",
         border: "0px",
-        backgroundColor: "#d3d3d3"
+        backgroundColor: "#d3d3d3",
+        fontFamily: "sans-serif",
+        fontWeight: "bold"
     };
 
     tabStyle2 = {
-        backgroundColor: "#d3d3d3"
+        backgroundColor: "#d3d3d3",
+        fontFamily: "sans-serif",
+        fontWeight: "bold"
     }
 
     render() {

@@ -10,6 +10,7 @@ h1 {
     padding-left: 35px;
     text-align: center;
     font-size: 50px;
+    font-family: 'Oswald', sans-serif;
     cursor: pointer;
 }
 
@@ -44,6 +45,14 @@ th, td {
     padding-left: 35px;
     padding-right: 35px;
     cursor: pointer;
+}
+
+.myName {
+    font-weight: bold;
+}
+
+.myBirthday {
+    font-weight: bold;
 }
 
 /* snsアイコンの設定 */
