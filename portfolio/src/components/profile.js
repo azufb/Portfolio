@@ -13,14 +13,14 @@ class Profile extends Component {
             <h2>自己紹介</h2>
             <span>名前：
                 <ruby>
-                    <rb>岡本 梓沙</rb>
+                    <rb className="myName">岡本 梓沙</rb>
                     <rp>(</rp>
                     <rt>おかもと あずさ</rt>
                     <rp>)</rp>
                 </ruby>
             </span><br></br>
             <span>生年月日：
-                1998年02月10日
+                <span className="myBirthday">1998年02月10日</span>
             </span><br></br>
             <span>SNS等：<br></br>
                 <a className="twitterIcon" href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
