@@ -35,15 +35,15 @@ th, td {
 
 /* Homeページのレイアウト */
 .aisatu {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 /* Profileページのレイアウト */
 .profile {
     margin-top: 5px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
     cursor: pointer;
 }
 
@@ -83,8 +83,8 @@ th, td {
 
 /* My Worksページのレイアウト */
 .myWorks {
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 45px;
+    padding-right: 45px;
 }
 
 .detail {
