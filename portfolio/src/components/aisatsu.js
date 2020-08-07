@@ -4,7 +4,7 @@ class Aisatsu extends Component {
     render() {
         return (
             <div>
-                <h2>ご挨拶</h2>
+                <h2>Welcome To My Portfolio!!</h2>
                 <p>こんにちは、岡本梓沙と申します。<br></br>
                 私のポートフォリオサイトにお尋ねくださり、ありがとうございます。<br></br>
                 私は、エンジニアを目指して独学でプログラミングの勉強をしております。<br></br>
