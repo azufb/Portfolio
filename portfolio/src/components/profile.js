@@ -36,7 +36,6 @@ class Profile extends Component {
                     </span>
                 </div>
                 <div className="keireki">
-                    <h3>経歴</h3>
                     <p>
                         2020年3月、大学を卒業。商学部に所属していた。<br></br>
                         大学入学当時は、商社への就職を夢みていたため、貿易関連の授業も履修。学部に、<br></br>
