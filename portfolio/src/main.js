@@ -40,7 +40,7 @@ class Main extends Component {
             <div className="main">
                 <Tabs>
                     <div className="mainTitle">
-                        <h1>Azusa's Portfolio</h1>
+                        <h1>I am AZUSA...</h1>
                         <TabList className="mainTab">
                             <Tab style={ this.mainTabStyle }>Home</Tab>
                             <Tab style={ this.mainTabStyle }>Profile</Tab>
