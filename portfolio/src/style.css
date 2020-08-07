@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     border-bottom: 3px solid #db7093;
+    cursor: pointer;
 }
 .mainTab {
     margin-top: 30px;
@@ -27,10 +28,12 @@ h2 {
 /* 資格ページと成果物一覧ページの表のレイアウト */
 table {
     border-collapse: collapse;
+    cursor: pointer;
 }
 
 th, td {
     border: 1px solid black;
+    cursor: pointer;
 }
 
 /* Homeページのレイアウト */
@@ -50,34 +53,36 @@ th, td {
 .profileDetail {
     display: flex;
     align-items: baseline;
+    cursor: pointer;
 }
 
 .myName {
     font-weight: bold;
-}
-
-.myBirthday {
-    font-weight: bold;
+    cursor: pointer;
 }
 
 .keireki {
     margin-left: 80px;
+    cursor: pointer;
 }
 
 /* snsアイコンの設定 */
 .twitterIcon:link, .twitterIcon:visited,
 .twitterIcon:hover, .twitterIcon:active {
     color: #1DA1F2;
+    cursor: pointer;
 }
 
 .facebookIcon:link, .facebookIcon:visited,
 .facebookIcon:hover, .facebookIcon:active {
     color: #3b5998;
+    cursor: pointer;
 }
 
 .githubIcon:link, .githubIcon:visited,
 .githubIcon:hover, .githubIcon:active {
     color: #333;
+    cursor: pointer;
 }
 
 
@@ -85,11 +90,13 @@ th, td {
 .myWorks {
     padding-left: 45px;
     padding-right: 45px;
+    cursor: pointer;
 }
 
 .detail {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .btn {
@@ -97,10 +104,12 @@ th, td {
     margin-left: 20px;
     font-size: 20px;
     background-color: black;
+    cursor: pointer;
 }
 
 .goToApp:link, .goToApp:visited,
 .goToApp:hover, .goToApp:active {
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }

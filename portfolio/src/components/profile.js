@@ -21,9 +21,6 @@ class Profile extends Component {
                             <rp>)</rp>
                         </ruby>
                     </span><br></br>
-                    <span>生年月日:
-                        <span className="myBirthday">1998/02/10</span>
-                    </span><br></br>
                     <span>SNS等:<br></br>
                         <a className="twitterIcon" href="https://twitter.com/azu_proglove" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter-square fa-3x" style={this.twitterLinkStyle}></i></a>
                         <a className="facebookIcon" href="https://www.facebook.com/profile.php?id=100006217548803" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-square fa-3x" style={this.snsLinkStyle}></i></a>
