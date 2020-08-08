@@ -8,13 +8,13 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
 
-    {/* PC表示用 */}
-    <MediaQuery query="(min-width: 767px)">
+    {/* スマートフォン表示用 */}
+    <MediaQuery query="(max-width: 767px)">
       <App />
     </MediaQuery>
 
-    {/* スマートフォン表示用 */}
-    <MediaQuery query="(max-width: 767px)">
+    {/* PC表示用 */}
+    <MediaQuery query="(min-width: 768px)">
       <App />
     </MediaQuery>
 
