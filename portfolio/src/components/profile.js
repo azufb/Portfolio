@@ -17,7 +17,7 @@ class Profile extends Component {
                         <ruby>
                             <rb className="myName">岡本 梓沙</rb>
                             <rp>(</rp>
-                            <rt>おかもと あずさ</rt>
+                            <rt className="furigana">おかもと あずさ</rt>
                             <rp>)</rp>
                         </ruby>
                     </span><br></br>
@@ -27,7 +27,7 @@ class Profile extends Component {
                         <a className="githubIcon" href="https://github.com/azufb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-3x" style={this.snsLinkStyle}></i></a>
                         <p>
                             お問い合わせは、<br></br>
-                            TwitterまたはFacebook<br></br>
+                            TwitterやFacebook<br></br>
                             でお受け致します。
                         </p>
                     </span>

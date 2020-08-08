@@ -125,6 +125,8 @@ td {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*
 @media (max-width: 767px) {
     .mainTitle {
         display: flex;
@@ -148,4 +150,15 @@ td {
         height: 30px;
         text-align: center;
     }
+
+    .myName {
+        font-size: 15px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .furigana {
+        visibility: hidden;
+    }
 }
+*/
