@@ -16,69 +16,71 @@ class Main extends Component {
 
     constructor(props) {
         super(props);
-        this.changeBackgroundMain = this.changeBackgroundMain.bind(this);
-        this.changeBackgroundLeaveMain = this.changeBackgroundLeaveMain.bind(this);
-        this.changeBackground2 = this.changeBackground2.bind(this);
-        this.changeBackgroundLeave2 = this.changeBackgroundLeave2.bind(this);
-        this.changeBackgroundDetail = this.changeBackgroundDetail.bind(this);
-        this.changeBackgroundLeaveDetail = this.changeBackgroundLeaveDetail.bind(this);
+        this.changeStyleNavTab = this.changeStyleNavTab.bind(this);
+        this.changeStyleNavTabLeave = this.changeStyleNavTabLeave.bind(this);
+        this.changeTabStyle = this.changeTabStyle.bind(this);
+        this.changeTabStyleLeave = this.changeTabStyleLeave.bind(this);
+        this.changeTabStyleDetail = this.changeTabStyleDetail.bind(this);
+        this.changeTabStyleDetailLeave = this.changeTabStyleDetailLeave.bind(this);
     }
 
-    mainTabStyle = {
+    navTabStyle = {
         border: "none",
-        paddingLeft: "30px",
         backgroundColor: "#e6e6e6",
         fontFamily: "'Oswald', sans-serif",
+        fontSize: "25px",
         cursor: "pointer"
     };
 
     tabStyle = {
         height: "24px",
-        border: "0px",
-        backgroundColor: "#d3d3d3",
+        border: "none",
+        backgroundColor: "#c8c9c9",
         fontFamily: "sans-serif",
         fontWeight: "bold",
         cursor: "pointer"
     };
 
     tabStyleDetail = {
-        backgroundColor: "#d3d3d3",
+        backgroundColor: "#c8c9c9",
         fontFamily: "sans-serif",
         fontWeight: "bold",
         cursor: "pointer"
     }
 
-    changeBackgroundMain(e) {
-        e.target.style.borderBottom = "3px solid #db7093";
+    changeStyleNavTab(e) {
+        e.target.style.borderBottom = "3px solid #d85782";
         e.target.style.fontFamily = "'Oswald', sans-serif";
+        e.target.style.fontSize = "25px";
     }
 
-    changeBackgroundLeaveMain(e) {
+    changeStyleNavTabLeave(e) {
         e.target.style.background = "#e6e6e6";
         e.target.style.borderBottom = "none";
         e.target.style.fontFamily = "'Oswald', sans-serif";
+        e.target.style.fontSize = "25px";
     } 
 
-    changeBackground2(e) {
-        e.target.style.borderBottom = "3px solid #db7093";
+    changeTabStyle(e) {
+        e.target.style.borderBottom = "3px solid #d85782";
         e.target.fontFamily = "sans-serif";
         e.target.fontWeight = "bold";
 
     }
 
-    changeBackgroundLeave2(e) {
-        e.target.style.background = "#d3d3d3";
+    changeTabStyleLeave(e) {
+        e.target.style.background = "#c8c9c9";
         e.target.style.borderBottom = "none";
     }
 
-    changeBackgroundDetail(e) {
-        e.target.style.borderBottom = "3px solid #db7093";
+    changeTabStyleDetail(e) {
+        e.target.style.borderBottom = "3px solid ##d85782";
         e.target.fontFamily = "sans-serif";
         e.target.fontWeight = "bold";
     }
 
-    changeBackgroundLeaveDetail(e) {
-        e.target.style.background = "#d3d3d3";
+    changeTabStyleDetailLeave(e) {
+        e.target.style.background = "##c8c9c9";
         e.target.style.borderBottom = "none";
     }
 
@@ -88,10 +90,11 @@ class Main extends Component {
                 <Tabs>
                     <div className="mainTitle">
                         <h1>I am AZUSA...</h1>
+
                         <TabList className="mainTab">
-                            <Tab style={ this.mainTabStyle } onMouseLeave={ this.changeBackgroundLeaveMain } onMouseEnter={ this.changeBackgroundMain }>Home</Tab>
-                            <Tab style={ this.mainTabStyle } onMouseLeave={ this.changeBackgroundLeaveMain } onMouseEnter={ this.changeBackgroundMain }>Profile</Tab>
-                            <Tab style={ this.mainTabStyle } onMouseLeave={ this.changeBackgroundLeaveMain } onMouseEnter={ this.changeBackgroundMain }>My Works</Tab>
+                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Home</Tab>
+                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Profile</Tab>
+                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>My Works</Tab>
                         </TabList>
                     </div>
                     {/* Topページの挨拶文のタブ */}
@@ -103,9 +106,9 @@ class Main extends Component {
                     <TabPanel className="profile">
                         <Tabs>
                             <TabList>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeBackgroundLeave2 } onMouseEnter={ this.changeBackground2 }>自己紹介</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeBackgroundLeave2 } onMouseEnter={ this.changeBackground2 }>資格・スキル</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeBackgroundLeave2 } onMouseEnter={ this.changeBackground2 }>きっかけ</Tab>
+                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>自己紹介</Tab>
+                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>資格・スキル</Tab>
+                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>きっかけ</Tab>
                             </TabList>
 
                             <TabPanel>
@@ -127,8 +130,8 @@ class Main extends Component {
                     <TabPanel className="myWorks">
                         <Tabs>
                             <TabList>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeBackgroundLeave2 } onMouseEnter={ this.changeBackground2 }>一覧</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeBackgroundLeave2 } onMouseEnter={ this.changeBackground2 }>詳細</Tab>
+                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>一覧</Tab>
+                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>詳細</Tab>
                             </TabList>
 
                             {/* 成果物一覧ページのタブ */}
@@ -142,9 +145,9 @@ class Main extends Component {
                                 <p>制作した成果物の中からいくつかピックアップしてご紹介します！</p>
                                 <Tabs>
                                     <TabList>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeBackgroundLeaveDetail } onMouseEnter={ this.changeBackgroundDetail }>タスク管理</Tab>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeBackgroundLeaveDetail } onMouseEnter={ this.changeBackgroundDetail }>ほめるん</Tab>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeBackgroundLeaveDetail } onMouseEnter={ this.changeBackgroundDetail }>ToDo管理アプリ</Tab>
+                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>タスク管理</Tab>
+                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ほめるん</Tab>
+                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ToDo管理アプリ</Tab>
                                     </TabList>
 
                                     <TabPanel>
