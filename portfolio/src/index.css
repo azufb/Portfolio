@@ -28,3 +28,36 @@ footer {
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
 }
+
+@media (min-width: 760px) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #c8c9c9;
+    cursor: pointer;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  footer {
+    margin-top: auto;
+    cursor: pointer;
+  }
+  
+  .copyright {
+    margin-bottom: 0px;
+    background-color: #e6e6e6;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+  }
+}

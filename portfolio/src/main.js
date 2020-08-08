@@ -24,6 +24,7 @@ class Main extends Component {
         this.changeTabStyleDetailLeave = this.changeTabStyleDetailLeave.bind(this);
     }
 
+    // タブのスタイルの設定
     navTabStyle = {
         border: "none",
         backgroundColor: "#e6e6e6",
@@ -87,85 +88,86 @@ class Main extends Component {
     render() {
         return (
             <div className="main">
-                <Tabs>
-                    <div className="mainTitle">
-                        <h1>I am AZUSA...</h1>
+                    <Tabs>
+                        <div className="mainTitle">
+                            <h1>I am AZUSA...</h1>
 
-                        <TabList className="mainTab">
-                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Home</Tab>
-                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Profile</Tab>
-                            <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>My Works</Tab>
-                        </TabList>
-                    </div>
-                    {/* Topページの挨拶文のタブ */}
-                    <TabPanel className="aisatu">
-                        <Aisatsu />
-                    </TabPanel>
-
-                    {/* Profileページのタブ */}
-                    <TabPanel className="profile">
-                        <Tabs>
-                            <TabList>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>自己紹介</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>資格・スキル</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>きっかけ</Tab>
+                            <TabList className="mainTab">
+                                <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Home</Tab>
+                                <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>Profile</Tab>
+                                <Tab style={ this.navTabStyle } onMouseLeave={ this.changeStyleNavTabLeave } onMouseEnter={ this.changeStyleNavTab }>My Works</Tab>
                             </TabList>
+                        </div>
 
-                            <TabPanel>
-                                <Profile />
-                            </TabPanel>
+                        {/* Topページの挨拶文のタブ */}
+                        <TabPanel className="aisatu">
+                            <Aisatsu />
+                        </TabPanel>
 
-                            <TabPanel>
-                                <Certificate />
-                                <Skills />
-                            </TabPanel>
+                        {/* Profileページのタブ */}
+                        <TabPanel className="profile">
+                            <Tabs>
+                                <TabList>
+                                    <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>自己紹介</Tab>
+                                    <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>資格・スキル</Tab>
+                                    <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>きっかけ</Tab>
+                                </TabList>
 
-                            <TabPanel>
-                                <Trigger />
-                            </TabPanel>
-                        </Tabs>
-                    </TabPanel>
+                                <TabPanel>
+                                    <Profile />
+                                </TabPanel>
 
-                    {/* 成果物のMy Worksページのタブ */}
-                    <TabPanel className="myWorks">
-                        <Tabs>
-                            <TabList>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>一覧</Tab>
-                                <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>詳細</Tab>
-                            </TabList>
+                                <TabPanel>
+                                    <Certificate />
+                                    <Skills />
+                                </TabPanel>
 
-                            {/* 成果物一覧ページのタブ */}
-                            <TabPanel>
-                                <Works />
-                            </TabPanel>
+                                <TabPanel>
+                                    <Trigger />
+                                </TabPanel>
+                            </Tabs>
+                        </TabPanel>
 
-                            {/* 成果物詳細ページのタブ */}
-                            <TabPanel>
-                                <h2>成果物詳細</h2>
-                                <p>制作した成果物の中からいくつかピックアップしてご紹介します！</p>
-                                <Tabs>
-                                    <TabList>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>タスク管理</Tab>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ほめるん</Tab>
-                                        <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ToDo管理アプリ</Tab>
-                                    </TabList>
+                        {/* 成果物のMy Worksページのタブ */}
+                        <TabPanel className="myWorks">
+                            <Tabs>
+                                <TabList>
+                                    <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>一覧</Tab>
+                                    <Tab style={ this.tabStyle } onMouseLeave={ this.changeTabStyleLeave } onMouseEnter={ this.changeTabStyle }>詳細</Tab>
+                                </TabList>
 
-                                    <TabPanel>
-                                        <TaskKanri />
-                                    </TabPanel>
+                                {/* 成果物一覧ページのタブ */}
+                                <TabPanel>
+                                    <Works />
+                                </TabPanel>
 
-                                    <TabPanel>
-                                        <Homerun />
-                                    </TabPanel>
+                                {/* 成果物詳細ページのタブ */}
+                                <TabPanel>
+                                    <h2>成果物詳細</h2>
+                                    <p>制作した成果物の中からいくつかピックアップしてご紹介します！</p>
+                                    <Tabs>
+                                        <TabList>
+                                            <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>タスク管理</Tab>
+                                            <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ほめるん</Tab>
+                                            <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ToDo管理アプリ</Tab>
+                                        </TabList>
 
-                                    <TabPanel>
-                                        <VueToDoListApp />
-                                    </TabPanel>
-                                </Tabs>
-                            </TabPanel>
-                        </Tabs>
-                    </TabPanel>
-                </Tabs>
+                                        <TabPanel>
+                                            <TaskKanri />
+                                        </TabPanel>
+
+                                        <TabPanel>
+                                            <Homerun />
+                                        </TabPanel>
+
+                                        <TabPanel>
+                                            <VueToDoListApp />
+                                        </TabPanel>
+                                    </Tabs>
+                                </TabPanel>
+                            </Tabs>
+                        </TabPanel>
+                    </Tabs>
             </div>
         )
     }
