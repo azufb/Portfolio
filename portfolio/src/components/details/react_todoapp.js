@@ -14,7 +14,7 @@ class ReactToDoListApp extends Component {
                     </button>
                 </div>
                 <h4>制作のきっかけ</h4>
-                <p>「CRUD」を意識した開発に挑戦しようと思ったことがきっかけです。</p>
+                <p>「CRUD」を意識した開発に挑戦しようと思ったこと。</p>
                 <h4>使用言語・技術等</h4>
                 <p>JavaScript・React.js・React Hooks・Heroku</p>
             </div>
