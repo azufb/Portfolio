@@ -16,7 +16,7 @@ class VueToDoListApp extends Component {
                 <h4>制作のきっかけ</h4>
                 <p>
                     Vue.jsを利用してアプリを制作することを通して、<br></br>
-                    Vue.jsへの理解を深めようと考えたこと。
+                    Vue.jsへの理解を深めようと考えた。
                 </p>
                 <h4>使用言語・技術等</h4>
                 <p>JavaScript・Vue.js・Heroku</p>
