@@ -11,6 +11,7 @@ import Works from './components/works';
 import TaskKanri from './components/details/taskkanri';
 import Homerun from './components/details/homerun';
 import VueToDoListApp from './components/details/vue_todoapp';
+import MemoApp from './components/details/memoApp';
 
 class Main extends Component {
 
@@ -147,10 +148,15 @@ class Main extends Component {
                                     <p>制作した成果物の中からいくつかピックアップしてご紹介します！</p>
                                     <Tabs>
                                         <TabList>
+                                            <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>メモアプリ</Tab>
                                             <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>タスク管理</Tab>
                                             <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ほめるん</Tab>
                                             <Tab style={ this.tabStyleDetail } onMouseLeave={ this.changeTabStyleDetailLeave } onMouseEnter={ this.changeTabStyleDetail }>ToDo管理アプリ</Tab>
                                         </TabList>
+
+                                        <TabPanel>
+                                            <MemoApp />
+                                        </TabPanel>
 
                                         <TabPanel>
                                             <TaskKanri />
