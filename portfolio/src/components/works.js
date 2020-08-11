@@ -16,7 +16,7 @@ class Works extends Component {
 
                     <tbody>
                         <tr>
-                            <td>簡単なメモアプリ</td>
+                            <td>メモアプリ</td>
                             <td>JavaScript・React.js・Redux・Redux Persist</td>
                             <td>2020年8月11日</td>
                         </tr>
